@@ -38,7 +38,7 @@ SRC_URI = "git://git.opensvc.com/multipath-tools/.git;protocol=http \
            file://0005-RH-add-mpathconf.patch \
            file://0006-RH-add-wwids-from-kernel-cmdline-mpath.wwids-with-A.patch \
            file://0007-RH-trigger-change-uevent-on-new-device-creation.patch \
-           file://0008-libmultipath-change-how-RADOS-checker-is-enabled.patch \
+           file://0008-libmultipath-disable-RADOS-support.patch \
            file://0009-multipath-set-verbosity-to-default-during-config.patch \
            file://0010-mpath-skip-device-configs-without-vendor-product.patch \
            file://0011-multipathd-fix-show-maps-json-crash.patch \
