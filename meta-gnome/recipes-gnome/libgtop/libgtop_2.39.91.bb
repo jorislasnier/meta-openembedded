@@ -7,7 +7,9 @@ inherit gnomebase lib_package gtk-doc distro_features_check gobject-introspectio
 # depends on libxau
 REQUIRED_DISTRO_FEATURES = "x11"
 
-SRC_URI[archive.md5sum] = "bb0ce7de6b28694b40405eedac8a31b5"
-SRC_URI[archive.sha256sum] = "4f6c0e62bb438abfd16b4559cd2eca0251de19e291c888cdc4dc88e5ffebb612"
+SRC_URI[archive.md5sum] = "b50a24e8c70af532c5616f42f4ec71b7"
+SRC_URI[archive.sha256sum] = "3428e3901c80a572d7f7bdf29cc0ecb733cc314038ba3d45093a84f314271f0f"
 
 DEPENDS = "glib-2.0 libxau"
+
+EXTRA_OEMAKE += "LIBGTOP_LIBS="
